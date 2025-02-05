@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Downloads\\Avance2.0-main\\Avance2.0-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance2.0-main\\avance2.0-main\\views\\createaccontview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\createaccontview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance2.0-main\\avance2.0-main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAccontView.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance2.0-main\\Avance2.0-main\\Views\\CreateAccontView.xaml",
+              "RelativeDocumentMoniker": "Views\\CreateAccontView.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance2.0-main\\Avance2.0-main\\Views\\CreateAccontView.xaml*",
+              "RelativeToolTip": "Views\\CreateAccontView.xaml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T20:24:34.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance2.0-main\\Avance2.0-main\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance2.0-main\\Avance2.0-main\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:25:36.83Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.CreateAccontView"
+             Title="CreateAccontView"
+             BackgroundColor="#abb2b9">
+   
+    <VerticalStackLayout>
+        <Label 
+            Margin="0,30,0,20"
+            Text="Welcome!"
+            FontSize="60"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image 
+            Aspect="AspectFill" 
+            Source="logo_usuario.png"
+            WidthRequest="200"/>
+        <Label
+            Margin="40,20,0,0"
+            Text="name"
+            FontSize="Medium"/>
+        <Entry
+            Placeholder="Nombre"
+            BackgroundColor="#e5e8e8"
+            HeightRequest="60"
+            WidthRequest="400"/>
+        <Label
+            Margin="40,20,0,0"
+            Text="email"
+            FontSize="Medium"/>
+        <Entry
+            Placeholder="Correo Electronico"
+            BackgroundColor="#e5e8e8"
+            Text="tucorreo@gamil.com" 
+            WidthRequest="400"
+            HeightRequest="60"/>
+        <Label
+            Margin="40,20,0,0"
+            Text="passwork"
+            FontSize="Medium"
+            FontFamily="bold"/>
+        <Entry
+            Placeholder="Contraseña"
+            BackgroundColor="#e5e8e8"
+            IsPassword="True"
+            WidthRequest="400"
+            HeightRequest="60"/>
+        <Button
+            Margin="0,20,0,0"
+            BackgroundColor="Grey"
+            HeightRequest="60"
+            WidthRequest="300"
+            Text="Registar"
+            TextColor="#FBF6FD"/>
+        <Label
+            Margin="100,20,0,0"
+            Text="Ya tengo una cuneta"
+            FontSize="12"
+            TextColor="Blue"/>
+    </VerticalStackLayout>
+</ContentPage>
