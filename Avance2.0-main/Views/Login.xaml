@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PantallaLogin.Vista.Login"
+             Title="Login"
+             BackgroundColor="#abb2b9">
+    <ScrollView >
+        <VerticalStackLayout>
+            <Label 
+                Margin="0,30,0,20"
+                Text="Recuperación de contraseña"
+                FontSize="25"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"/>
+            <Label
+                Margin="40,20,0,0"
+                Text="Correo electronico"
+                FontSize="15"/>
+            <Entry            
+                Placeholder="Correo electronico"
+                VerticalOptions="Center"
+                BackgroundColor="#e5e8e8"
+                WidthRequest="400"
+                HeightRequest="60"/>
+            <Label
+                Margin="40,20,0,0"
+                Text="Ingrese su ultima contraseña"
+                FontSize="15"/> 
+            <Entry              
+                IsPassword="True"
+                Placeholder="Password"
+                VerticalOptions="Center"
+                BackgroundColor="#e5e8e8"
+                WidthRequest="400"
+                HeightRequest="60"/>
+            <Button
+                Margin="0,20,0,0"
+                BackgroundColor="White"
+                HeightRequest="60"
+                WidthRequest="300"
+                Text="Enviar"
+                TextColor="Black"/>
+            <Label
+                Margin="100,20,0,0"
+                Text="Ya tengo una cuenta"
+                FontSize="15"
+                TextColor="Blue"/>    
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
