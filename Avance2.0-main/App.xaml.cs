@@ -8,7 +8,7 @@ namespace Registro
         {
             InitializeComponent();
 
-            MainPage = new CreateAccontView();
+            MainPage = new NavigationPage(new Login());
         }
     }
 }

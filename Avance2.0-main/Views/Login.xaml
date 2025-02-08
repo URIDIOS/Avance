@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PantallaLogin.Vista.Login"
+             x:Class="Registro.Views.Login"
              Title="Login"
              BackgroundColor="#abb2b9">
     <ScrollView >
         <VerticalStackLayout>
             <Label 
                 Margin="0,30,0,20"
-                Text="Recuperación de contraseña"
+                Text="Iniciar Sesión"
                 FontSize="25"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"/>
             <Label
                 Margin="40,20,0,0"
-                Text="Correo electronico"
+                Text="Name"
                 FontSize="15"/>
             <Entry            
-                Placeholder="Correo electronico"
+                Placeholder="Octavio"
                 VerticalOptions="Center"
                 BackgroundColor="#e5e8e8"
                 WidthRequest="400"
                 HeightRequest="60"/>
             <Label
                 Margin="40,20,0,0"
-                Text="Ingrese su ultima contraseña"
+                Text="Password"
                 FontSize="15"/> 
             <Entry              
                 IsPassword="True"
-                Placeholder="Password"
+                Placeholder="*********"
                 VerticalOptions="Center"
                 BackgroundColor="#e5e8e8"
                 WidthRequest="400"
                 HeightRequest="60"/>
+            <Label
+                Margin="100,20,0,0"
+                Text="Olvide mi contraseña"
+                FontSize="15"
+                TextColor="White"/>
+            <Label
+                Margin="100,20,0,0"
+                Text="¿No tienes cuenta? Crear cuenta."
+                FontSize="15"
+                TextColor="#e5e8e8"/>
             <Button
                 Margin="0,20,0,0"
                 BackgroundColor="White"
                 HeightRequest="60"
                 WidthRequest="300"
-                Text="Enviar"
-                TextColor="Black"/>
-            <Label
-                Margin="100,20,0,0"
-                Text="Ya tengo una cuenta"
-                FontSize="15"
-                TextColor="Blue"/>    
+                Text="Entrar"
+                TextColor="Black"
+                Clicked="Button_Clicked"/>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

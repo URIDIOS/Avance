@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.RecuperarContra" 
+               BackgroundColor="#abb2b9">
+    <ScrollView >
+    <VerticalStackLayout>
+        <Label 
+             Margin="0,30,0,20"
+             Text="Recuperar contraseña"
+             FontSize="25"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center"/>
+        <Label
+             Margin="40,20,0,0"
+             Text="Enviamos un codigo al correo electronico"
+             FontSize="15"/>
+        <Entry
+            Text="******447@gmail.com"
+             Placeholder="Correo"
+             VerticalOptions="Center"
+             BackgroundColor="#e5e8e8"
+             WidthRequest="400"
+             HeightRequest="60"/>
+        <Label
+             Margin="40,20,0,0"
+             Text="Codigo de acceso"
+             FontSize="15"/>
+        <Entry              
+             Placeholder="Codigo"
+             VerticalOptions="Center"
+             BackgroundColor="#e5e8e8"
+             WidthRequest="400"
+             HeightRequest="60"
+            MaxLength="6"/>
+        <Label
+             Margin="100,20,0,0"
+              Text="¿No tienes cuenta? Crear cuenta."
+             FontSize="15"
+             TextColor="White"
+            />
+        <Button
+             Margin="0,20,0,0"
+             BackgroundColor="White"
+             HeightRequest="60"
+             WidthRequest="300"
+             Text="Verificar codigo"
+             TextColor="Black"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

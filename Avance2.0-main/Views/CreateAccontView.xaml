@@ -53,10 +53,11 @@
             WidthRequest="300"
             Text="Registar"
             TextColor="#FBF6FD"/>
-        <Label
+        <Button
             Margin="100,20,0,0"
             Text="Ya tengo una cuneta"
             FontSize="12"
-            TextColor="Blue"/>
+            TextColor="Blue"
+            Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

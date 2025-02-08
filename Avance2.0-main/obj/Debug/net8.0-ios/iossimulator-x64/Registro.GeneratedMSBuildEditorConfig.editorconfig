@@ -53,3 +53,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.CreateAccontView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CreateAccontView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CreateAccontView.xaml
+
+[C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/Pantalla_Principal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Pantalla_Principal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pantalla_Principal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pantalla_Principal.xaml
+
+[C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/RecuperarContra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.RecuperarContra.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RecuperarContra.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RecuperarContra.xaml

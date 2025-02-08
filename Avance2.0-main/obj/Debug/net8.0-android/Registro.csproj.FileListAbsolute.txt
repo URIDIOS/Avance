@@ -2103,3 +2103,5 @@ C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\
 C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\resizetizer\r\drawable\logo_usuario.png
+C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\Registro.sourcelink.json
+C:\Users\Jesus\Downloads\Avance2.0-main\Avance2.0-main\obj\Debug\net8.0-android\resizetizer\r\drawable\io_button.png
