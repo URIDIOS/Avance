@@ -2,56 +2,73 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Registro.Views.Login"
-             Title="Login"
-             BackgroundColor="#abb2b9">
+             Title="Login">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#9e9e9e"
+                       Offset="0.25" />
+            <GradientStop Color="#595959"
+                       Offset="100.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
     <ScrollView >
         <VerticalStackLayout>
             <Label 
-                Margin="0,30,0,20"
+                Margin="0,110,0,90"
                 Text="Iniciar Sesión"
-                FontSize="25"
+                FontSize="45"
+                FontFamily="loster"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                TextColor="#fdfdfd"/>
             <Label
-                Margin="40,20,0,0"
-                Text="Name"
-                FontSize="15"/>
+                Margin="65,20,0,10"
+                Text="NAME"
+                FontSize="12"
+                TextColor="#fdfdfd"/>
             <Entry            
-                Placeholder="Octavio"
+                Placeholder="Nombre"
                 VerticalOptions="Center"
-                BackgroundColor="#e5e8e8"
-                WidthRequest="400"
+                BackgroundColor="#d1d1d1"
+                WidthRequest="350"
                 HeightRequest="60"/>
             <Label
-                Margin="40,20,0,0"
-                Text="Password"
-                FontSize="15"/> 
+                Margin="65,20,0,10"
+                Text="PASSWORD"
+                FontSize="12"
+                TextColor="#fdfdfd"/> 
             <Entry              
                 IsPassword="True"
-                Placeholder="*********"
+                Placeholder="Password" 
                 VerticalOptions="Center"
-                BackgroundColor="#e5e8e8"
-                WidthRequest="400"
+                BackgroundColor="#d1d1d1"
+                WidthRequest="350"
                 HeightRequest="60"/>
             <Label
-                Margin="100,20,0,0"
+                Margin="65,10,0,60"
+                VerticalOptions="Center"
                 Text="Olvide mi contraseña"
+                TextDecorations="Underline"
                 FontSize="15"
-                TextColor="White"/>
+                TextColor="#e5e8e8"/>
             <Label
-                Margin="100,20,0,0"
+                Margin="110,10,0,0"
                 Text="¿No tienes cuenta? Crear cuenta."
+                TextDecorations="Underline"
                 FontSize="15"
                 TextColor="#e5e8e8"/>
             <Button
+                FontFamily="loster"
                 Margin="0,20,0,0"
-                BackgroundColor="White"
-                HeightRequest="60"
-                WidthRequest="300"
-                Text="Entrar"
-                TextColor="Black"
+                BorderColor="#e5e8e8"
+                BorderWidth="2"
+                BackgroundColor="Transparent"
+                CornerRadius="20"
+                HeightRequest="65"
+                WidthRequest="350"
+                Text="Iniciar Sesión"
+                TextColor="#e5e8e8"
                 Clicked="Button_Clicked"/>
-            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

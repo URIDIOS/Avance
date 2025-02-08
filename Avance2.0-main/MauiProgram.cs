@@ -13,7 +13,11 @@ namespace Registro
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                    fonts.AddFont("Poppins-Black.ttf", "loster");
+					fonts.AddFont("Poppins-ExtraLight.ttf", "loster2");
+					fonts.AddFont("Poppins-BlackItalic.ttf", "loster3");
+					fonts.AddFont("Poppins-ExtraLight.ttf", "loster4");
+				});
 
 #if DEBUG
     		builder.Logging.AddDebug();
