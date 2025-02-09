@@ -14,7 +14,7 @@
     <ScrollView >
         <VerticalStackLayout>
             <Label 
-                Margin="0,110,0,90"
+                Margin="0,100,0,60"
                 Text="Iniciar Sesión"
                 FontSize="45"
                 FontFamily="loster"
@@ -26,37 +26,53 @@
                 Text="NAME"
                 FontSize="12"
                 TextColor="#fdfdfd"/>
-            <Entry            
-                Placeholder="Nombre"
-                VerticalOptions="Center"
+            <Frame
+                CornerRadius="20"
                 BackgroundColor="#d1d1d1"
-                WidthRequest="350"
-                HeightRequest="60"/>
+                WidthRequest="360"
+                HeightRequest="65">
+                <Entry            
+                    Placeholder="Nombre"
+                    PlaceholderColor="Black"
+                    VerticalOptions="Center"
+                    BackgroundColor="#d1d1d1"
+                    WidthRequest="300"
+                    HeightRequest="60"/>
+            </Frame>
             <Label
                 Margin="65,20,0,10"
                 Text="PASSWORD"
                 FontSize="12"
-                TextColor="#fdfdfd"/> 
-            <Entry              
-                IsPassword="True"
-                Placeholder="Password" 
-                VerticalOptions="Center"
+                TextColor="#fdfdfd"/>
+            <Frame
+                CornerRadius="20"
                 BackgroundColor="#d1d1d1"
-                WidthRequest="350"
-                HeightRequest="60"/>
-            <Label
-                Margin="65,10,0,60"
-                VerticalOptions="Center"
-                Text="Olvide mi contraseña"
-                TextDecorations="Underline"
-                FontSize="15"
-                TextColor="#e5e8e8"/>
-            <Label
-                Margin="110,10,0,0"
-                Text="¿No tienes cuenta? Crear cuenta."
-                TextDecorations="Underline"
-                FontSize="15"
-                TextColor="#e5e8e8"/>
+                WidthRequest="360"
+                HeightRequest="65">
+                <Entry              
+                     IsPassword="True"
+                     Placeholder="Password"
+                     PlaceholderColor="Black"
+                     VerticalOptions="Center"
+                     BackgroundColor="#d1d1d1"
+                     WidthRequest="300"
+                     HeightRequest="60"/>
+            </Frame>
+            <Button
+                 Margin="0,0,0,0"
+                 BackgroundColor="Transparent"
+                 HeightRequest="50"
+                 WidthRequest="300"
+                 Text="Olvide mi contraseña"
+                 TextColor="White"
+                 Clicked="Button_Clicked_2"/>
+            <Button
+                BackgroundColor="Transparent"
+                HeightRequest="50"
+                WidthRequest="300"
+                Text="¿No tienes cuenta? Crear Cuenta."
+                TextColor="White"
+                Clicked="Button_Clicked_1"/>
             <Button
                 FontFamily="loster"
                 Margin="0,20,0,0"
