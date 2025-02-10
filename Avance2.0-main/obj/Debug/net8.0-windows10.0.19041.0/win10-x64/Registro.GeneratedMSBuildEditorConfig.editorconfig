@@ -52,11 +52,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = Registro.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/Actividad.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Actividad.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Actividad.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Actividad.xaml
+
 [C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/CreateAccontView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.CreateAccontView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CreateAccontView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CreateAccontView.xaml
+
+[C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/Historial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Historial.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Historial.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Historial.xaml
 
 [C:/Users/Jesus/Downloads/Avance2.0-main/Avance2.0-main/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

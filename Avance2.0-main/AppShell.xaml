@@ -5,22 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Registro.Views"
     Shell.FlyoutBehavior="Flyout"
-    Shell.BackgroundColor="#e8e8e8"
+    Shell.BackgroundColor="#515151"
     Shell.FlyoutWidth="250"
-    FlyoutHeaderBehavior="CollapseOnScroll"
-    Title="Registro">
+    FlyoutHeaderBehavior="CollapseOnScroll">
 
-    <Shell.FlyoutHeader>
-        <StackLayout
-            BackgroundColor="red"
-            Padding="10">
-            
-        </StackLayout>
-    </Shell.FlyoutHeader>
     <FlyoutItem Title="Home">
-
         <ShellContent ContentTemplate="{DataTemplate local:Pantalla_Principal}"/>
-        
     </FlyoutItem>
-
+    <FlyoutItem Title="Actividad">
+        <ShellContent ContentTemplate="{DataTemplate local:Actividad}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Historial">
+        <ShellContent ContentTemplate="{DataTemplate local:Historial}"/>
+    </FlyoutItem>
 </Shell>
