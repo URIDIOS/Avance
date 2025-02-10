@@ -45,7 +45,7 @@
         <Frame
             CornerRadius="20"
             BackgroundColor="#d1d1d1"
-            WidthRequest="360"
+            WidthRequest="350"
             HeightRequest="65">
             <Entry
                 PlaceholderColor="Black"
